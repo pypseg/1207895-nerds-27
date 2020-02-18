@@ -31,31 +31,73 @@ button {
 
 /* header */
 
+.main-header {
+  background-color: #eeeeee;
+}
 
 .main-navigation {
+  display: flex;
   text-transform: uppercase;
   line-height: 30px;
 }
 
+.main-navigation-wrapper {
+  width: 100%;
+}
+
+.main-navigation-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.main-header-logo {
+  height: 65px;
+  width: 160px;
+}
+
 .site-navigation,
-.user-navigation {
+.bascet-navigation {
    list-style: none;
 }
 
 .site-navigation a:hover,
-.user-navigation a:hover {
+.bascet-navigation a:hover {
   color: #fb565a;
 }
 
 
 .site-navigation a:focus,
-.user-navigation a:focus {
+.bascet-navigation a:focus {
   color: rgba(0, 0, 0, 0.3);
 }
 
 /* about */
 
-.header-about {
+.about {
+  background-color: #eeeeee;
+}
+
+.about-columns {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  margin-bottom: 122px;
+}
+
+.about-main-info {
+  width: 376px;
+}
+
+.about-slider {
+ width: 698px;
+}
+
+.h3-about {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
@@ -84,12 +126,15 @@ button {
 
 /* menu */
 
-.menu-columns {
-
+.menu-navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-bottom: 80px;
 }
 
-.menu-navigation {
-  list-style: none;
+.menu-item {
+  width: 300px;
 }
 
 .menu-navigation h3 {
@@ -154,14 +199,28 @@ button {
   background-color: #e5a722;
 }
 
+/* info+stats */
+
+.info-stats-columns {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 76px;
+  padding-top: 80px;
+  border-top: 2px solid lightgrey;
+
+}
+
 /* info */
+
+.info {
+  width: 650px;
+}
 
 .h3-info {
   font-size: 45px;
   line-height: 45px;
   font-weight: 500;
 }
-
 
 .h4-info {
   text-transform: uppercase;
@@ -175,13 +234,12 @@ button {
   color: #283136;
 }
 
-.li-info::before {
-
-  color: #fb565a;
-}
-
 
 /* stats */
+
+.stats {
+  width: 360px;
+}
 
 .p-stats {
   text-transform: uppercase;
@@ -190,6 +248,8 @@ button {
 
 .ul-stats {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .ul-stats li {
@@ -206,26 +266,39 @@ button {
 
 /* partners */
 
+.partners {
+  border-top: 2px solid lightgrey;
+  padding-top: 46px;
+}
+
 .ul-partners {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
-.partner1:hover {
- 
+.li-partner {
+  width: 199px;
 }
-.partner1:active {
 
-}
+/* описать для всех поведение при наведении? */
+
 
 /* contacts */
+.contacts-map {
+  width: 1440-px;
+  text-align: center;
+}
 
 .h3-contacts {
   text-transform: uppercase;
   font-size: 18px;
+
 }
 
 .p-contacts {
   color: #666666;
+
 }
 
 .contacts-button {

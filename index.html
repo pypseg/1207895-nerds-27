@@ -9,8 +9,11 @@
   <body>
 
     <header class="main-header"> 
+  
       <nav class="main-navigation">
-        <a>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+        <a class="main-header-logo">
         <img src="img/nerds-logo.svg" height="65" width="160" alt="Логотип Нёрдс">
         </a>
         <ul class="site-navigation">
@@ -19,43 +22,55 @@
           <li><a href="catalog.html">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
-        <ul class="user-navigation">
+        <ul class="bascet-navigation">
           <li>
             <img src="img/basket-icon.svg" height="15" width="15">
             <a href="cart.hyml">Корзина</a>
           </li>
         </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
-    <main>
-      <h1 class="visually-hidden">Сайт дизайн-студии Нёрдс</h1>
+    <main>  
+      <div class="about">
+        <div  class="container">
+         <div class="about-columns">
 
-      <section>
-        <h2 class="visually-hidden">Наш слоган</h2>
-        <h3 class="header-about">Долго, дорого, скрупулезно.</h3>
-        <p class="p-about">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a class="a-about" href="">Узнать больше</a>
-        
-        <img src="img/slide-picture.jpg" height="413" width="698" alt="Мобильные приложения">
-      </section>
+             <section class="about-main-info">
+             <h1 class="visually-hidden">Сайт дизайн-студии Нёрдс</h1>
+             <h2 class="visually-hidden">Наш слоган</h2>
+             <h3 class="h3-about">Долго, дорого,<br>
+           скрупулезно.</h3>
+             <p class="p-about">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+             <a class="a-about" href="">Узнать больше</a>
+             </section>
 
-      <section class="section-menu">
+             <section class="abour-slider">
+             <img class="img-about" src="img/slide-picture.jpg" height="413" width="698" alt="Мобильные приложения">
+             </section>
+         </div>
+        </div> 
+      </div>
+
+      <div class="container">
+      <section class="menu-columns">
                 <h2 class="visually-hidden">Меню</h2>
         <ul class="menu-navigation">
-          <li>
+          <li class="menu-item">
             <h3>Веб-сайты</h3>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
             <button class="menu-button1" type="button">Заказать</button>
             <img src="img/advantage-picture-red.jpg" height="146" width="300" alt="Веб-сайты">
           </li>
-          <li>
+          <li class="menu-item">
             <h3>Приложения</h3>
             <p>Покорите топ-10 приложений в AppStore и Google Play</p>
             <button class="menu-button2" type="button">Заказать</button>
             <img src="img/advantage-picture-green.jpg" height="146" width="300" alt="Приложения">
           </li>
-          <li>
+          <li class="menu-item">
             <h3>Презентации</h3>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
             <button class="menu-button3" type="button">Заказать</button>
@@ -63,7 +78,10 @@
           </li>
         </ul>
        </section>
+       
     
+       <div class="info-stats-columns">
+       <section class="info">
         <h2 class="visually-hidden">О нас</h2>
         <h3 class="h3-info">Мы — маленькая, но гордая дизайн-студия из Краснодара. </h3>
         <p class="p-info">Исповедуем принципы минимализма и чистоты. Ставим математический расчет
@@ -74,9 +92,9 @@
           <li class="li-info">Мобильных приложений для iOS и Android</li>
           <li class="li-info">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
-      <section>
-
       </section>
+
+      <section class="stats">
         <h2 class="visually-hidden">Статистика</h2>
         <img src="img/nerds-picture.jpg" height="208" width="360">
         <p class="p-stats">с 2004 года Любим точность во всем:</p>
@@ -85,27 +103,36 @@
           <li><div class="info-numbers">100%</div>Соблюдение сроков</li>
           <li><div class="info-numbers">50% </div>Минимальная предоплата</li>
         </ul>
-      <section>
-
       </section>
+      </div>
+
+      <section class="partners">
         <h2 class="visually-hidden">Партнёры</h2>
         <ul class="ul-partners">
-          <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/htmlacademy-logo.jpg" height="68" width="199" alt="HTML academy"></a></li>
-          <li class="partner1"><a href=""><img src="img/borodinski-logo.jpg" height="90" width="209" alt="Barbershop Borodinskiy"></a></li>
-          <li class="partner2"><a href=""><img src="img/pink-logo.jpg" height="52" width="185" alt="Pink"></a></li>
-          <li class="partner3"><a href=""><img src="img/mishka-logo.jpg" height="84" width="173" alt="Mishka"></a></li>
+          <li class="li-partner"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/htmlacademy-logo.jpg" height="68" width="199" alt="HTML academy"></a></li>
+          <li class="li-partner"><a href=""><img src="img/borodinski-logo.jpg" height="90" width="209" alt="Barbershop Borodinskiy"></a></li>
+          <li class="li-partner"><a href=""><img src="img/pink-logo.jpg" height="52" width="185" alt="Pink"></a></li>
+          <li class="li-partner"><a href=""><img src="img/mishka-logo.jpg" height="84" width="173" alt="Mishka"></a></li>
         </ul>
+      </section>
+    </div>
+
       <section>
-          <h2 class="visually-hidden">Контакты</h2>
-          <img src="img/2.jpg" height="416" width="1440">
+        <h2 class="visually-hidden">Контакты</h2>
+        <div class="contacts-map">
+          <img class="contacts-map" src="img/2.jpg" height="416" width="1440"><br>
+        </div> 
+      <div class="container">
           <img src="img/map-marker.png" height="190" width="231">
           <h3 class="h3-contacts">Nёrds Design Studio</h3>
           <p class="p-contacts">191186, Санкт-Петербург, 
             ул. Б. Конюшенная, д. 19/8</p>
             <p><a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
             <button class="contacts-button" type="button">Напишите нам</button>
+      </div>
       </section>
-    </main>
+
+
 
       <section class="contact-us">
         <h2 class="h2-contact-us">Напишите нам</h2>
@@ -120,9 +147,12 @@
          </form>
        <button class="modal-close" type="button">Закрыть</button>
         
-      </section>  
+      </section> 
+   
+    </main> 
 
     <footer>
+      <div class="container">
       <ul class="ul-footer">
         <li><a href=""><img src="img/vk-icon.svg" height="15" width="26" alt="ВКонтакте"></a></li>
         <li><a href=""><img src="img/fb-icon.svg" height="22" width="12" alt="Facebook"></a></li>
@@ -130,6 +160,7 @@
       </ul>
       <h2 class="h2-footer">Давайте дружить, это выгодно!!</h2>
       <p class="p-footer">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </footer>
 
   </body>
